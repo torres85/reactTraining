@@ -1,0 +1,20 @@
+.locationList{
+    height: 90vh;
+    overflow: auto;
+}
+
+@media (max-width: 64em){ /*per sota de 64 em prevalen aquests css's*/
+    .locationList{
+        max-height: 40vh; /*30% de la mida de la pantalla*/
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.forecastTitle{
+    color:white;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
